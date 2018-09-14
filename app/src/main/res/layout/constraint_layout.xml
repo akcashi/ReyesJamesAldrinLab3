@@ -2,7 +2,6 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:exported="true">
@@ -80,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Title2" /> />
+        app:layout_constraintTop_toBottomOf="@+id/Title2" />
 
     <TextView
         android:id="@+id/Distance2"
@@ -133,18 +132,18 @@
 
     <Button
         android:id="@+id/back2"
-        style="@style/btnback"
+        style="@style/AppTheme.Button"
         android:layout_width="74dp"
-        android:layout_height="37dp"
 
+        android:layout_height="37dp"
         android:layout_below="@+id/Distance2"
         android:layout_marginBottom="12dp"
         android:layout_marginEnd="12dp"
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
 
+        android:layout_marginTop="8dp"
         android:layout_weight="1"
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -156,7 +155,7 @@
 
     <Button
         android:id="@+id/next2"
-        style="@style/btnnext"
+        style="@style/AppTheme.Button"
         android:layout_width="74dp"
         android:layout_height="37dp"
         android:layout_below="@+id/Distance2"
@@ -164,8 +163,8 @@
         android:layout_marginEnd="12dp"
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
-        android:layout_marginStart="12dp"
 
+        android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
         android:layout_weight="1"
         android:text="Next"
